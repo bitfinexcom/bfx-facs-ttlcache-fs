@@ -32,7 +32,7 @@ The value returned from the cache is parsed and returned as provided to the cach
 ## Configuration
 
 During initialization, the following options, with their defaults, are supported:
-```json
+```js
 {
   directory: "./cache/data",    // Directory where to store cached files
   deleteCacheDirOnStart: true,  // True to delete cache on startup
