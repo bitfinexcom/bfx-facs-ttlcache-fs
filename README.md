@@ -16,8 +16,8 @@ const largeBlockObject = {
   txs: [...]
 }
 
-this.ttlcacheFs_0.set('block-123', largeBlockObject)
-const block = this.ttlcacheFs_0.get('block-123')
+await this.ttlcacheFs_0.set('block-123', largeBlockObject)
+const block = await this.ttlcacheFs_0.get('block-123')
 
 // block has the same value as the largeBlockObject variable set previously
 ```
