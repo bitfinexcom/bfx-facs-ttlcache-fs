@@ -7,8 +7,10 @@ A time-based cache with support for storing large objects in a file system inste
 ```js
 this.setInitFacs([
   ['fac', 'bfx-facs-ttlcache-fs', '0', '0', {
-    max: 300, // max 300 objects
-    ttl: 3600 * 1000 // 1h
+      cache: {
+        max: 300, // max 300 objects
+        ttl: 3600 * 1000 // 1h
+      }
   }],
 ])
 
