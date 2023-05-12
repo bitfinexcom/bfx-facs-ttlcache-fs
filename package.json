@@ -1,0 +1,42 @@
+{
+  "name": "bfx-facs-ttlcache-fs",
+  "version": "1.0.0",
+  "private": false,
+  "description": "Bitfinex TTLCache FS Fac",
+  "author": {
+    "name": "Michal Kralik",
+    "email": "michal.kralik@bitfinex.com"
+  },
+  "keywords": [
+    "bitfinex",
+    "ttlcache",
+    "fs"
+  ],
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "@isaacs/ttlcache": "1.2.2",
+    "bfx-facs-base": "git+https://github.com/bitfinexcom/bfx-facs-base.git"
+  },
+  "devDependencies": {
+    "mocha": "10.2.0",
+    "standard": "16.0.4"
+  },
+  "engine": {
+    "node": ">=14.0"
+  },
+  "main": "index.js",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bitfinexcom/bfx-facs-ttlcache-fs.git"
+  },
+  "homepage": "https://github.com/bitfinexcom/bfx-facs-ttlcache-fs",
+  "maintainers": [
+    {
+      "name": "Michal Kralik",
+      "email": "michal.kralik@bitfinex.com"
+    }
+  ]
+}
