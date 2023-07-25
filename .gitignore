@@ -2,3 +2,4 @@ node_modules/
 .editorconfig
 jsconfig.json
 .vscode/
+package-lock.json
