@@ -1,4 +1,4 @@
-const Base = require('bfx-facs-base')
+const Base = require('@bitfinex/bfx-facs-base')
 const crypto = require('crypto')
 const fs = require('fs/promises')
 const path = require('path')
