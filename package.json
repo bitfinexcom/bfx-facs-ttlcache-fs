@@ -1,6 +1,6 @@
 {
-  "name": "bfx-facs-ttlcache-fs",
-  "version": "1.0.0",
+  "name": "@bitfinex/bfx-facs-ttlcache-fs",
+  "version": "2.0.0",
   "private": false,
   "description": "Bitfinex TTLCache FS Fac",
   "author": {
@@ -16,15 +16,15 @@
     "test": "mocha"
   },
   "dependencies": {
-    "@isaacs/ttlcache": "1.2.2",
-    "bfx-facs-base": "git+https://github.com/bitfinexcom/bfx-facs-base.git"
+    "@bitfinex/bfx-facs-base": "git+https://github.com/bitfinexcom/bfx-facs-base.git",
+    "@isaacs/ttlcache": "1.2.2"
   },
   "devDependencies": {
     "mocha": "10.2.0",
-    "standard": "16.0.4"
+    "standard": "17.1.2"
   },
-  "engine": {
-    "node": ">=14.0"
+  "engines": {
+    "node": ">=16.0"
   },
   "main": "index.js",
   "license": "Apache-2.0",
